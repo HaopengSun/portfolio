@@ -4,7 +4,12 @@ import "./Intro.scss";
 const Intro = function(){
   return (
     <div className="intro" id="intro">
-      intro
+      <div className="left">
+        <div className="imageContainer">
+          <img src="assets/man.png" alt="" />
+        </div>
+      </div>
+      <div className="right"></div>
     </div>
   )
 }
