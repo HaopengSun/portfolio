@@ -1,8 +1,6 @@
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
+    <div>
       <h2>Shuyue Wang</h2>
     </div>
   );
