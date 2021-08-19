@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import "./Topbar.scss";
 import PermIdentityIcon from '@material-ui/icons/PermIdentity';
 import EmailIcon from '@material-ui/icons/Email';
+import Menu from "../menu/Menu"
 
 const Topbar = function(){
   const [active, setActive] = useState(false)
 
   return (
     <div className={"topbar " + (active && "active")}>
+      <Menu active={active} setActive={setActive}/>
       <div className="wapper">
         <div className="left">
           <a href="#intro" className="logo">HAOPENG</a>
