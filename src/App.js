@@ -2,15 +2,17 @@ import Topbar from './components/topbar/Topbar'
 import Contact from './components/contact/Contact'
 import Portfolio from './components/portfolio/Portfolio'
 import Intro from './components/intro/Intro'
+import './app.scss'
 
 function App() {
   return (
-    <div>
-      <h2>Shuyue Wang</h2>
+    <div className="app">
       <Topbar />
-      <Contact />
-      <Portfolio />
-      <Intro />
+      <div className="sections">
+        <Intro />
+        <Portfolio />
+        <Contact />
+      </div>
     </div>
   );
 }
