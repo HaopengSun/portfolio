@@ -1,8 +1,38 @@
+@import '../../global.scss';
+
 .topbar{
   width: 100%;
   height: 70px;
-  background-color: #15023a;
+  background-color: white;
+  color: $mainColor;
   position:fixed;
   top: 0;
   z-index: 2;
+
+  .wapper{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .left{
+    display: flex;
+    align-items: center;
+
+    .logo{
+      font-size: 40px;
+      font-weight: 700;
+      text-decoration: none;
+      color: inherit;
+      margin-right: 40px;
+    }
+
+    .itemcontainer{
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      margin-right: 20px;
+    }
+  }
 }
