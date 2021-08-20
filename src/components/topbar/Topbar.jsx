@@ -3,6 +3,7 @@ import "./Topbar.scss";
 import PermIdentityIcon from '@material-ui/icons/PermIdentity';
 import EmailIcon from '@material-ui/icons/Email';
 import Menu from "../menu/Menu"
+import { Link } from "react-router-dom"
 
 const Topbar = function(){
   const [active, setActive] = useState(false)
@@ -21,7 +22,7 @@ const Topbar = function(){
             <EmailIcon className="icon"/>
             <span>SUNHP2016@outlook.com</span>
           </div>
-          <h3 className="about">About</h3>
+          <Link className="about" to="/about">About</Link>
         </div>
         <div className="right">
           <div className="hamburger" onClick={() => setActive(!active)}>
