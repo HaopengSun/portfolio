@@ -9,7 +9,16 @@ const Intro = function(){
           <img src="assets/man.png" alt="" />
         </div>
       </div>
-      <div className="right"></div>
+      <div className="right">
+        <div className="wapper">
+          <h2>Hi there, I am</h2>
+          <h1>Haopeng Sun</h1>
+          <h3>Full-stack developer</h3>
+          <a href="#portfolio">
+            <img src="assets/down.png" alt="down" />
+          </a>
+        </div>
+      </div>
     </div>
   )
 }
