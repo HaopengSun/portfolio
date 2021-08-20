@@ -49,8 +49,10 @@ const Portfolio = function(){
             <div className="item">
               <img src={item.img} alt={item.title}/>
               <div onClick={()=> window.open(url, "_blank")}>
-                <h3>{item.title}</h3>
+                <h2>{item.title}</h2>
                 <h4>{item.subtitle}</h4>
+                <h6>{item.description}</h6>
+                <h6>{item.teckStack}</h6>
               </div>
             </div>
           )
