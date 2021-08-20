@@ -1,17 +1,38 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import PortfolioList from "../portfolioList/PortfolioList";
 import "./Portfolio.scss";
+import { reactPortfolio, angularPortfolio, algorithmPortfolio, jQueryAjaxPortfolio } from "../../data"
 
 const Portfolio = function(){
 
   const [selected, setSelected] = useState("React")
+  const [data, setData] = useState([])
 
   const list = [
     { id: "React", title: "React"},
     { id: "Python", title: "Python"},
     { id: "Angular", title: "Angular"},
-    { id: "jQuery", title: "jQuery"},
+    { id: "jQuery+Ajax", title: "jQuery+Ajax"},
   ];
+
+  useEffect(() => {
+    switch(selected){
+      case "React":
+        setData(reactPortfolio);
+        break;
+      case "Python":
+        setData(algorithmPortfolio);
+        break;
+      case "Angular":
+        setData(angularPortfolio);
+        break;
+      case "jQuery+Ajax":
+        setData(jQueryAjaxPortfolio);
+        break;
+      default:
+        setData(reactPortfolio);
+    }
+  }, [selected])
 
   return (
     <div className="portfolio" id="portfolio">
@@ -22,20 +43,19 @@ const Portfolio = function(){
         )}
       </ul>
       <div className="container">
-        <div className="item">
-          <img src="assets/game_page.png" alt="chessU"/>
-          <div onClick={()=> window.open("https://github.com/HaopengSun/chessU", "_blank")}>
-            <h3>ChessU</h3>
-            <h3>(Lighthouse Final Project)</h3>
-          </div>
-        </div>
-        <div className="item">
-          <img src="assets/add-appointment.png" alt="Scheduler" />
-          <div onClick={()=> window.open("https://github.com/HaopengSun/scheduler", "_blank")}>
-            <h3>Scheduler</h3>
-            <h3>(Lighthouse Project)</h3>
-          </div>
-        </div>
+        {data.map(item => {
+          const url = item.url
+          return (
+            <div className="item">
+              <img src={item.img} alt={item.title}/>
+              <div onClick={()=> window.open(url, "_blank")}>
+                <h3>{item.title}</h3>
+                <h4>{item.subtitle}</h4>
+              </div>
+            </div>
+          )
+        })}
+
       </div>
     </div>
   )
