@@ -6,13 +6,19 @@ const Menu = function({active, setActive}){
     <div className={"menu " + (active && "active")} id="menu">
       <ul>
         <li  onClick={() => setActive(false)}>
-          <a href="#intro">intro</a>
+          <a href="#intro">Intro</a>
         </li>
         <li  onClick={() => setActive(false)}>
-          <a href="#portfolio">portfolio</a>
+          <a href="#portfolio">Portfolio</a>
         </li>
         <li  onClick={() => setActive(false)}>
-          <a href="#contact">contact</a>
+          <a href="#education">Education</a>
+        </li>
+        <li  onClick={() => setActive(false)}>
+          <a href="#work">Work</a>
+        </li>
+        <li  onClick={() => setActive(false)}>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </div>

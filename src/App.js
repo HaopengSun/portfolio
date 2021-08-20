@@ -10,6 +10,8 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import Education from './components/education/Education'
+import Work from './components/work/Work'
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
                 <div className="sections">
                   <Intro />
                   <Portfolio />
+                  <Education />
+                  <Work />
                   <Contact />
                 </div>
               </div>
