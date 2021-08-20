@@ -17,6 +17,15 @@ export const reactPortfolio = [
     teckStack: "test stask: React, express, node, PostgreSQL",
     url: "https://github.com/HaopengSun/scheduler"
   },
+  {
+    id: 3,
+    title: "Portfolio",
+    subtitle: "",
+    img: "assets/portfolio.png",
+    description:"personal portfolio that presents intro, education, projects and work experience.",
+    teckStack: "test stask: React, ityped, react-router-dom, scss",
+    url: "https://github.com/HaopengSun/portfolio"
+  },
 ]
 
 export const algorithmPortfolio = [

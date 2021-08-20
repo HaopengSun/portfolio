@@ -35,6 +35,7 @@
       justify-content: center;
       position: relative;
       transition: all .5s ease;
+      scrollbar-width: none;
 
       h4{
         margin-bottom: 30px;
@@ -54,9 +55,10 @@
       }
 
       img{
-        width: 300px;
+        width: 350px;
         object-fit: cover;
         z-index: 1;
+        scrollbar-width: none;
       }
 
       &:hover{

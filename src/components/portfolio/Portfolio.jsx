@@ -9,18 +9,18 @@ const Portfolio = function(){
   const [data, setData] = useState([])
 
   const list = [
-    { id: "React", title: "React"},
-    { id: "Python", title: "Python"},
+    { id: "React", title: "React.JS"},
+    { id: "Python", title: "Python+Django"},
     { id: "Angular", title: "Angular"},
     { id: "jQuery+Ajax", title: "jQuery+Ajax"},
   ];
 
   useEffect(() => {
     switch(selected){
-      case "React":
+      case "React.JS":
         setData(reactPortfolio);
         break;
-      case "Python":
+      case "Python+Django":
         setData(algorithmPortfolio);
         break;
       case "Angular":
