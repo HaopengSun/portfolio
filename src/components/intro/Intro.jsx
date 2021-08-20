@@ -18,7 +18,7 @@ const Intro = function(){
     <div className="intro" id="intro">
       <div className="left">
         <div className="imageContainer">
-          <img src="assets/man.png" alt="" />
+          <img src="assets/man.jpg" alt="icon" />
         </div>
       </div>
       <div className="right">

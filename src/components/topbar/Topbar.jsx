@@ -16,7 +16,7 @@ const Topbar = function(){
           <a href="#intro" className="logo">HAOPENG</a>
           <div className="itemcontainer">
             <PermIdentityIcon className="icon"/>
-            <span>514-632-3066</span>
+            <span className="phone">514-632-3066</span>
           </div>
           <div className="itemcontainer">
             <EmailIcon className="icon"/>
