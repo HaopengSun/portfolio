@@ -26,6 +26,7 @@ const Intro = function(){
           <h2>Hi there, I am</h2>
           <h1>Haopeng Sun</h1>
           <h3>Full-stack <span ref={textRef}></span></h3>
+          <h3 className="resume" onClick={()=> window.open("https://resume.creddle.io/resume/21k1t4vbt9r", "_blank")}>View My Resume</h3>
           <a href="#portfolio">
             <img src="assets/down.png" alt="down" />
           </a>
