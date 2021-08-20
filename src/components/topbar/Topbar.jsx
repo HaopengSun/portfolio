@@ -20,7 +20,7 @@ const Topbar = function(){
           </div>
           <div className="itemcontainer">
             <EmailIcon className="icon"/>
-            <span>SUNHP2016@outlook.com</span>
+            <span><a className="email" href="mailto:tester@test.com">SUNHP2016@outlook.com</a></span>
           </div>
           <Link className="about" to="/about">About</Link>
         </div>
