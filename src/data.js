@@ -63,3 +63,34 @@ export const jQueryAjaxPortfolio = [
     url: "https://github.com/HaopengSun/tweeter"
   }
 ]
+
+export const educations = [
+  {
+    id: 1,
+    school: "Lighthouse Lab",
+    subtitle: "Full-stack web development 2021​",
+    img: "assets/lighthouse.png",
+    description:"Courses: ReactJS, NodeJS, jQuery, Ajax, Ruby on Rail, Git et al.",
+  },
+  {
+    id: 2,
+    school: "Concordia University",
+    subtitle: "Civil Engineering Master Degree (Masc.) 2021​",
+    img: "assets/concordia-university-2.svg",
+    description:"Build a Poisson-disk based Python algorithm to improve the accuracy of numerical geotechnical simulations. GPA: 3.98",
+  },
+  {
+    id: 3,
+    school: "Shenyang Jianzhu University",
+    subtitle: "Civil Engineering Master Degree (Masc.) 2015​",
+    img: "assets/shenyangjianzhu.png",
+    description:"Build health system to detect flaws of building structures. GPA: 3.5",
+  },
+  {
+    id: 4,
+    school: "University of Michigan",
+    subtitle: "PHP, Django, Python (cerfiticate) 2015​",
+    img: "assets/michigan.png",
+    description:"certification of PHP, Django and Python",
+  },
+]
