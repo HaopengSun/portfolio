@@ -118,6 +118,5 @@ export const works = [
     title: "Mar. 2015​ to June 2018​",
     img:"assets/huatai.png",
     desc: "Design building drawing for reinforced concrete structures, including frame structure, shear-wall structure, underground structure",
-    featured: true,
   },
 ];
