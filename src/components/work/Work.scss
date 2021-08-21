@@ -43,19 +43,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-
-        img {
-          &.left,
-          &.right {
-            height: 25px;
-          }
-          &.user {
-            height: 80px;
-            width: 80px;
-            // object-fit: cover;
-            margin: 0 30px;
-          }
-        }
       }
 
       .center {
@@ -70,7 +57,7 @@
         justify-content: center;
 
         h3 {
-          margin-bottom: 5px;
+          margin-bottom: 1px;
         }
         h4{
             color: rgb(121, 115, 115);

@@ -107,16 +107,24 @@ export const educations = [
 export const works = [
   {
     id: 1,
-    name: "Teaching assistant and lab demonstrator",
-    title: "Sept. 2019​ to Dec. 2019​",
-    img: "assets/concordia-university-2.svg",
+    name: "Concordia University",
+    title: "Teaching assistant, lab demonstrator​",
+    time: " Sept. 2019​ to Dec. 2019​",
     desc:"Tutorial Teaching and lab demonstrating, in charge of teaching tutorials, demonstrating labs and marking for 20 some students.",
   },
   {
     id: 2,
-    name: "assistant structural engineer",
-    title: "Mar. 2015​ to June 2018​",
-    img:"assets/huatai.png",
+    name: "Shenzhen Sino-Sun Construction Engineering Design Co., LTD.",
+    title: "Assistant structural engineer",
+    time:"March 2015​ to July 2016",
+    featured: true,
+    desc: "Design building drawing for reinforced concrete structures, including frame structure, shear-wall structure, underground structure",
+  },
+  {
+    id: 3,
+    name: "Shenyang Jiahua Amazon Medical Equipment Co., LTD.",
+    title: "Construction supervisor",
+    time:"August 2016 to August 2018​",
     desc: "Design building drawing for reinforced concrete structures, including frame structure, shear-wall structure, underground structure",
   },
 ];

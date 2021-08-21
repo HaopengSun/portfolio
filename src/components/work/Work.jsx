@@ -9,18 +9,14 @@ const Work = function(){
           {works.map((d) => (
             <div className={d.featured ? "card featured" : "card"}>
               <div className="top">
-                <img
-                  className="user"
-                  src={d.img}
-                  alt=""
-                />
-              <div className="bottom">
-                <h3>{d.name}</h3>
+                <h4>{d.name}</h4>
                 <h4>{d.title}</h4>
-              </div>
               </div>
               <div className="center">
                 {d.desc}
+              </div>
+              <div className="bottom">
+                {d.time}
               </div>
             </div>
           ))}
