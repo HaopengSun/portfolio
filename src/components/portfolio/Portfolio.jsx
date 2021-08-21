@@ -5,7 +5,7 @@ import { reactPortfolio, angularPortfolio, algorithmPortfolio, jQueryAjaxPortfol
 
 const Portfolio = function(){
 
-  const [selected, setSelected] = useState("React")
+  const [selected, setSelected] = useState("React.JS")
   const [data, setData] = useState([])
 
   const list = [

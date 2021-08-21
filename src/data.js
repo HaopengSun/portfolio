@@ -90,16 +90,34 @@ export const educations = [
   },
   {
     id: 3,
-    school: "Shenyang Jianzhu University",
-    subtitle: "Civil Engineering Master Degree (Masc.) 2015​",
-    img: "assets/shenyangjianzhu.png",
-    description:"Build health system to detect flaws of building structures. GPA: 3.5",
-  },
-  {
-    id: 4,
     school: "University of Michigan",
     subtitle: "PHP, Django, Python (cerfiticate) 2015​",
     img: "assets/michigan.png",
     description:"certification of PHP, Django and Python",
   },
+  {
+    id: 4,
+    school: "Shenyang Jianzhu University",
+    subtitle: "Civil Engineering Master Degree (Masc.) 2015​",
+    img: "assets/shenyangjianzhu.png",
+    description:"Build health system to detect flaws of building structures. GPA: 3.5",
+  },
 ]
+
+export const works = [
+  {
+    id: 1,
+    name: "Teaching assistant and lab demonstrator",
+    title: "Sept. 2019​ to Dec. 2019​",
+    img: "assets/concordia-university-2.svg",
+    desc:"Tutorial Teaching and lab demonstrating, in charge of teaching tutorials, demonstrating labs and marking for 20 some students.",
+  },
+  {
+    id: 2,
+    name: "assistant structural engineer",
+    title: "Mar. 2015​ to June 2018​",
+    img:"assets/huatai.png",
+    desc: "Design building drawing for reinforced concrete structures, including frame structure, shear-wall structure, underground structure",
+    featured: true,
+  },
+];
